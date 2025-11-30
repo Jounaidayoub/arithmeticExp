@@ -98,7 +98,6 @@ int evaluate(const char *exp)
 
 int main()
 {
-    printf("Hello, World! from bekhhh \n");
     int result = evaluate("3 + 5 * 2 - 8 / 4");
     printf("Result: %d\n", result);
     return 0;
